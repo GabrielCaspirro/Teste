@@ -1,0 +1,6 @@
+ID foto, ID postagem do pertence2, ID postagem da tabela postagem, ID do projeto (Se possível colocar inteiro, projeto_aluno e projeto_aluno_ods precisam ser auto increment
+id_professor e id_projeto precisam estar na tabela nota como chave estrangeira, e não o contrário. Atualmente a tabela professor e projeto tem id_nota como chave estrangeira, mas dessa forma o professor pode avaliar apenas um projeto, e o projeto pode ter apenas uma nota.
+
+verificar a necessidade do id_professor na tabela de postagem
+
+seria ideal o campo foto na tabela postagem e não a tabela foto separada
